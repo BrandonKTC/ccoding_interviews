@@ -1,3 +1,5 @@
+thisresumedoesnotexist.com
+cakeresume.com/resumes
 
 **Resume Cheat Sheet**
 ---------------
