@@ -1,4 +1,3 @@
-Part of ZTM Course on Mastering the Coding Interview
 
 **Resume Cheat Sheet**
 ---------------
