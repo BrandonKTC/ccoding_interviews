@@ -18,10 +18,24 @@ class MyArray {
   const lastItem = this.data[this.LENGTH - 1];
   delete this.data[this.length - 1];
   this.length--;
-  return item;
+  return lastItem;
+ }
+
+ delete(index) {
+  const item = this.data[index];
+  this.shiftItems(index);
+ }
+
+ shiftItems(index) {
+  for (let i=index; i < this.length - 1; i++) {
+   this.data[i] = this.data[i+1];
+  }
+  delete this.data[this.length-1];
+  this.length--;
  }
 }
 
 const newArray = new MyArray();
-newArray.push('hi')
+newArray.push('hi');
+newArray.push(you)
 console.log(newArray.get(0));
