@@ -9,29 +9,32 @@
 // should return true.
 
 containsCommonItems = (arr1, arr2) => {
+ // Looop trough first array and create object where propreties === items in the array
 
- let map = {};
- for (let i=0; i < arr1.length; i++) {
-  if (!map[arr1[i]]) {
-   const item = arr1[i]
-   map[item] = true;
-  }
- }
-
- for (let j=0; j< arr2.length; j++) {
-  if (map[arr2[j]]) {
-   return true
-  }
- }
-
- return false
- 
- // for (let i = 0; i < arr1.length; i++) {
- //   if (arr2.includes(arr1[i])) {
- //    return true
- //   } 
+ // let map = {};
+ // for (let i=0; i < arr1.length; i++) {
+ //  if (!map[arr1[i]]) {
+ //   const item = arr1[i]
+ //   map[item] = true;
+ //  }
  // }
+
+// Loup through the second array and check if is item in second array exists on created object
+
+ // for (let j=0; j< arr2.length; j++) {
+ //  if (map[arr2[j]]) {
+ //   return true
+ //  }
+ // }
+
  // return false
+ 
+ for (let i = 0; i < arr1.length; i++) {
+   if (arr2.includes(arr1[i])) {
+    return true
+   } 
+ }
+ return false
 
 }
 
