@@ -1,3 +1,6 @@
+# Master the Coding Interview: Data Structures + Algorithms
+Notes and Files from the course [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) on Udemy
+Copyright(©) by Zero to Mastery.
 
 **Resume Cheat Sheet**
 ---------------
